@@ -40,11 +40,15 @@ Problem 2 - Ingestion
 Write code to ingest the weather and yield data from the raw text files supplied into your database, using the models you designed. Check for duplicates: if your code is run twice, you should not end up with multiple rows with the same data in your database. Your code should also produce log output indicating start and end times and number of records ingested.
 
 Please checkout : 
+
  • apps/core/management/commands/load_weather_data.py
+ 
  • apps/core/management/commands/load_yield_data.py 
 
 Run commands:
+
  • python manage.py load_weather_data
+ 
  • python manage.py load_yield_data 
 
 Problem 3 - Data Analysis
@@ -94,7 +98,14 @@ Please provide us with a link to your Git repository, hosted on GitHub/GitLab, c
 
 
 Usage: 
+
 • make install
+
+• python manage.py makemigrations
+
+• python manage.py migrate
+
 • make flake
+
 • make black
 
