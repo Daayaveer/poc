@@ -77,10 +77,14 @@ Your answer should include all files necessary to run your API locally, along wi
 
 
 Please visit: 
-http://localhost:8000/api/weather
-http://localhost:8000/api/yield
-http://localhost:8000/api/weather/stats
----
+
+ • http://localhost:8000/api/weather
+ 
+ • http://localhost:8000/api/yield
+ 
+ • http://localhost:8000/api/weather/stats
+ 
+
 
 Submitting Your Answers
 -----------------------
